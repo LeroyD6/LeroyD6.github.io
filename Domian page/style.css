@@ -1,0 +1,26 @@
+body {
+	background: linear-gradient(to bottom, #111, #06ee5f, #444);
+	height: 100vh;
+	transition: background 0.5s ease;
+}
+
+body:hover {
+	background: linear-gradient(to bottom, #222, #555);
+}
+
+.content {
+	max-width: 600px;
+}
+
+h1 {
+	font-size: 36px;
+	color: #fff;
+}
+
+.progress {
+	margin-top: 20px;
+}
+
+.progress-bar {
+	background-color: #0a6fe2;
+}
