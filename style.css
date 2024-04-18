@@ -4,8 +4,9 @@ body {
 	transition: background 0.5s ease;
 }
 
-body:hover {
-	background: linear-gradient(to bottom, #222, #555);
+body:hover,
+body:hover .progress-bar {
+  background: linear-gradient(to bottom, #222, #555);
 }
 
 .content {
